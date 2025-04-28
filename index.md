@@ -15,33 +15,30 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 
 | Sound category     | Feature 1    | Feature 2         | Feature 3        | Feature 4         | Feature 5          | Classification        |
 |:-------------|:-------------------|:------------------|:------------------|:------------------|:------------------|:------------------|:---------------------------|
-| Applause     | pitchsalience      | pitchconfidence   | attackstart       | dyncomplexity     | amplitude5        | Temporal+Spectral  |
-| Applause     | pitchconfidence    | mfcc_3            | amplitude3        | frequency1        | mfcc_6            | Temporal+Spectral  |
-| Church Bells | amplitude2         | amplitude4        | pitchsalience     | amplitude1        | maxtototal        | Temporal+Perceptual |
-| Church Bells | pitchsalience      | spectralflux      | dyncomplexity     | crest             | mfcc_3            | Temporal+Perceptual |
-| Bubbles      | logattacktime      | flatnesssfx       | mfcc_1            | ldb               | intensity         | Temporal+Spectral  |
-| Bubbles      | crest              | effectiveduration | frequency1        | pitchconfidence   | attackstart       | Temporal+Perceptual+Spectral |
-| Droplets     | loudness           | effectiveduration | ldb               | rms               | mfcc_1            | Temporal+Spectral  |
-| Droplets     | loudness           | rms               | ldb               | median            | spectralflux      | Temporal+Spectral  |
+| Applause     | Pitch salience      | pitchconfidence   | Attack start       | Dynamic complexity     | Amplitude 5        | Temporal and spectral  |
+| Applause     | Pitch confidence    | MFCC 3           | Amplitude 3        | Frequency 1        | MFCC 6           | Temporal and spectral  |
+| Church Bells | Amplitude 2         | Amplitude 4       | Pitch salience     | Amplitude1        | Max to total        | Temporal and perceptual |
+| Church Bells | Pitch salience      | Spectral flux      | Dynamic complexity     | Crest             | MFCC 3            | Temporal and perceptual |
+| Bubbles      | Log attack time      | Spectral flatnesss | mfcc_1            | LDB               | Intensity         | Temporal and spectral  |
+| Bubbles      | Crest              | Effective duration | frequency1        | pitchconfidence   | Attack start       | Temporal, perceptual and spectral |
+| Droplets     | Loudness           | Effective duration | LDB              | RMS              | MFCC 1           | Temporal and spectral  |
+| Droplets     | Loudness           | RMS          | LDB             | Median            | Spectral flux      | Temporal and spectral  |
 
 # Optimization
-
-| Class         | Optimization 1                                        | Optimization 2                                              | Optimization 3                                          | Optimization 4                                          |
-|:--------------|:------------------------------------------------------|:------------------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------------|
-| Applause      | Eq and reverb                                          | Distortion tone + audience factor + Distortion change of the knee | Change in the audience size, mix width. Plus distortion. | More Clapping rate, enthusiasm, compressor + distortion (change in the knee) |
-| Applause      | High frequencies, Reverb and bell pitch 3.81           | Distortion Bell pitch 3.81                                  | Distortion + source + energy                            | Low pass filter + compressor                            |
-| Church Bells  | Eq High band frequencies (600-1000) + Reverb (Small Impulse) | Change in centre frequency 1140 + Reverb (Small Impulse)     | Opt1 + Distortion + source + energy                     | Opt 3 + High Frequencies                                |
-| Church Bells  | Surface wetness + Viscosity                            | Compressor                                                   | Compressor + Flow amount                                | Distortion                                               |
-| Bubbles       | Eq and reverb                                          | Distortion tone + audience factor + Distortion change of the knee | Change in the audience size, mix width. Plus distortion. | More Clapping rate, enthusiasm, compressor + distortion (change in the knee) |
-| Bubbles       | High frequencies, Reverb and bell pitch 3.81           | Distortion Bell pitch 3.81                                  | Distortion + source + energy                            | Low pass filter + compressor                            |
-| Droplets      | Eq High band frequencies (600-1000) + Reverb (Small Impulse) | Change in centre frequency 1140 + Reverb (Small Impulse)     | Opt1 + Distortion + source + energy                     | Opt 3 + High Frequencies                                |
-| Droplets      | Surface wetness + Viscosity                            | Compressor                                                   | Compressor + Flow amount                                | Distortion                                               |
+For the optimization we provide  the whole list of both sound categories, top 5 important features and the optimization made for the subjective test. All the optimization parameters vary depending on the model used in the procedural audio online engine: 
+| Class          | Optimization 1                                               | Optimization 2                                                       | Optimization 3                                                | Optimization 4                                                    |
+|:---------------|:--------------------------------------------------------------|:---------------------------------------------------------------------|:---------------------------------------------------------------|:------------------------------------------------------------------|
+| Applause       | EQ and reverb                                                  | Distortion tone, more audience factor and a distortion change of the knee     | Change in the audience size, mix width and  distortion.       | More clapping rate and enthusiasm. We use compressor  and distortion ( with a change in the knee) |
+| Applause       | EQ (high pass filter), Reverb and bell pitch 3.81                  | Distortion Bell pitch 3.81                                             | Distortion  plus changes in the source  and energy                                   | Low pass filter and  compressor                                      |
+| Church bells   | Eq High band frequencies (600-1000), reverb (Small Impulse)   | Change in centre frequency 1140, reverb (Small Impulse)              | Optimization 1, distortion, changes in the source and energy  parameters                           | Optimization 3 + High pass filter (EQ) Frequencies                                           |
+| Church bells   | Surface wetness + Viscosity                                    | Compressor                                                            | Compressor + flow amount                                       | Distortion                                                        |
+| Bubbles        | Eq and reverb                                                  | Distortion tone + audience factor + Distortion change of the knee     | Change in the audience size, mix width. Plus distortion.       | Changes on the clapping rate, enthusiasm. Use of the  compressor and distortion (change in the knee) |
+| Bubbles        | High frequencies, Reverb and bell pitch 3.81                  | Distortion Bell pitch 3.81                                             | Distortion, changes in the  source and  energy  parameters                                  | Low pass filter  and compressor                                      |
+| Droplets       | Eq High band frequencies (600-1000),  reverb (Small Impulse)   | Change in centre frequency 1140 . Reverb (Small Impulse)              | Optimization 1 + Distortion + source + energy                            | Optimization 3 and the EQ on high frequencies
+| Droplets       | Surface wetness and viscocity changes                                    | Compressor                                                            | Compressor  and changes on the flow amount                                       | Distortion                                                        |
 
 # Analysis
-
-
-
-* * *
+In this section you will find the samples used in the subjective evaluation for SAOP 
 
 ### Here is an unordered list:
 
