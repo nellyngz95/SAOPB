@@ -6,6 +6,7 @@ The perceptual quality of synthetic sound models remains a significant challenge
 
 # Sound categories
 The SOAP paper was performed in 30 sound categories. All the synthetic models are listed [here](https://docs.google.com/spreadsheets/d/1KNiRQdd2AxuzoDDhtLKynx-YiRtXolz7Cmi_yLuYXLk/edit?usp=sharing). 
+
 We retrieved the top 5 features after using the Bottleneck framework. All the top 5 features of the 30 categories can be found [here](https://docs.google.com/spreadsheets/d/1D9WmVtdcp3gVJVWvY20wZEMUg0LAxOCs-plfeZjsb-M/edit?usp=sharing). 
 
 | Sound category     | Feature 1    | Feature 2         | Feature 3        | Feature 4         | Feature 5          | Classification        |
@@ -35,12 +36,11 @@ All the optimization parameters vary depending on the model used in the procedur
 | Bubbles        | High frequencies, Reverb and bell pitch 3.81                    | Distortion Bell pitch 3.81                                              | Distortion plus changes in the source and energy                   | Low pass filter and compressor                                     |
 | Droplets       | EQ High band frequencies (600-1000), Reverb (Small Impulse)     | Change in centre frequency 1140, Reverb (Small Impulse)                | Optimization 1 plus Distortion, source and energy                  | Optimization 3 plus EQ on high frequencies                         |
 | Droplets       | Surface wetness and viscosity changes                           | Compressor                                                             | Compressor plus changes on the flow amount                         | Distortion                                                         |
-
-[Link to the full list](./another-page.html).
+[Link to the full list of optimizations ](https://docs.google.com/spreadsheets/d/1yg0VtcU-2Eo1-I1Io8vB-8VSBgrAsxN4SJoMKOjoBSE/edit?usp=sharing)
 
 # Analysis
-In this section you will find the samples used in the subjective evaluation for SAOP 
-
+In this section you will find the samples used in the subjective evaluation for SAOP, 
+[More statistics](./another-page.html).
 ### Here is an unordered list:
 
 *   Item foo
