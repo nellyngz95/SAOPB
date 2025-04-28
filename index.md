@@ -5,8 +5,8 @@ The perceptual quality of synthetic sound models remains a significant challenge
 
 
 # Sound categories
-
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+The SOAP paper was performed in 30 sound categories. All the synthetic models are listed [here](https://docs.google.com/spreadsheets/d/1KNiRQdd2AxuzoDDhtLKynx-YiRtXolz7Cmi_yLuYXLk/edit?usp=sharing). 
+We retrieved the top 5 features after using the Bottleneck framework. All the top 5 features of the 30 categories can be found [here](https://docs.google.com/spreadsheets/d/1D9WmVtdcp3gVJVWvY20wZEMUg0LAxOCs-plfeZjsb-M/edit?usp=sharing). 
 
 | Sound category     | Feature 1    | Feature 2         | Feature 3        | Feature 4         | Feature 5          | Classification        |
 |:-------------|:-------------------|:------------------|:------------------|:------------------|:------------------|:------------------|:---------------------------|
@@ -54,11 +54,8 @@ In this section you will find the samples used in the subjective evaluation for 
 1.  Item two
 1.  Item three
 1.  Item four
-### Small image
+
 
 [Link to other resources](./another-page.html).
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
 
-### Large image
 
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
