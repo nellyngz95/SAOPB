@@ -25,16 +25,17 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 | Droplets     | loudness           | rms               | ldb               | median            | spectralflux      | Temporal+Spectral  |
 
 # Optimization
- | Sound category   | Main feature     | Optimization 1                          | Optimization 2                                       | Optimization 3                                            | Optimization 4                                        |
-|:-------------|:-------------------|:----------------------------------------|:----------------------------------------------------|:---------------------------------------------------------|:-----------------------------------------------------|
-| Applause     | pitchsalience      | Eq and reverb                           | Distortion tone + audience factor + Distortion change of the knee | Change in the audience size, mix width. Plus distortion. | More Clapping rate, enthusiasm, compressor + distortion (change in the knee) |
-| Applause     | pitchconfidence    | High frequencies, Reverb and bell pitch 3.81 | Distortion Bell pitch 3.81                          | Distortion + source + energy                             | Low pass filter + compressor                          |
-| Church Bells | amplitude2         | Eq High band frequencies (600-1000) + Reverb (Small Impulse) | Change in centre frequency 1140 + Reverb (Small Impulse) | Opt1 + Distortion + source + energy                      | Opt 3 + High Frequencies                             |
-| Church Bells | pitchsalience      | Surface wtness + Vicosity               | Compressor                                           | Compressor + Flow amount                                  | Distortion                                            |
-| Bubbles      | logattacktime      | Eq and reverb                           | Distortion tone + audience factor + Distortion change of the knee | Change in the audience size, mix width. Plus distortion. | More Clapping rate, enthusiasm, compressor + distortion (change in the knee) |
-| Bubbles      | crest              | High frequencies, Reverb and bell pitch 3.81 | Distortion Bell pitch 3.81                          | Distortion + source + energy                             | Low pass filter + compressor                          |
-| Droplets     | loudness           | Eq High band frequencies (600-1000) + Reverb (Small Impulse) | Change in centre frequency 1140 + Reverb (Small Impulse) | Opt1 + Distortion + source + energy                      | Opt 3 + High Frequencies                             |
-| Droplets     | loudness           | Surface wtness + Vicosity               | Compressor                                           | Compressor + Flow amount                                  | Distortion                                            |
+
+| Class         | Optimization 1                                        | Optimization 2                                              | Optimization 3                                          | Optimization 4                                          |
+|:--------------|:------------------------------------------------------|:------------------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------------|
+| Applause      | Eq and reverb                                          | Distortion tone + audience factor + Distortion change of the knee | Change in the audience size, mix width. Plus distortion. | More Clapping rate, enthusiasm, compressor + distortion (change in the knee) |
+| Applause      | High frequencies, Reverb and bell pitch 3.81           | Distortion Bell pitch 3.81                                  | Distortion + source + energy                            | Low pass filter + compressor                            |
+| Church Bells  | Eq High band frequencies (600-1000) + Reverb (Small Impulse) | Change in centre frequency 1140 + Reverb (Small Impulse)     | Opt1 + Distortion + source + energy                     | Opt 3 + High Frequencies                                |
+| Church Bells  | Surface wetness + Viscosity                            | Compressor                                                   | Compressor + Flow amount                                | Distortion                                               |
+| Bubbles       | Eq and reverb                                          | Distortion tone + audience factor + Distortion change of the knee | Change in the audience size, mix width. Plus distortion. | More Clapping rate, enthusiasm, compressor + distortion (change in the knee) |
+| Bubbles       | High frequencies, Reverb and bell pitch 3.81           | Distortion Bell pitch 3.81                                  | Distortion + source + energy                            | Low pass filter + compressor                            |
+| Droplets      | Eq High band frequencies (600-1000) + Reverb (Small Impulse) | Change in centre frequency 1140 + Reverb (Small Impulse)     | Opt1 + Distortion + source + energy                     | Opt 3 + High Frequencies                                |
+| Droplets      | Surface wetness + Viscosity                            | Compressor                                                   | Compressor + Flow amount                                | Distortion                                               |
 
 # Analysis
 
