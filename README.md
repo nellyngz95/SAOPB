@@ -1,4 +1,5 @@
 # The Minimal theme
+[![Netlify Status](https://api.netlify.com/api/v1/badges/07c5c57f-0aba-4954-b60e-6c296767e797/deploy
 
 [![.github/workflows/ci.yaml](https://github.com/pages-themes/minimal/actions/workflows/ci.yaml/badge.svg)](https://github.com/pages-themes/minimal/actions/workflows/ci.yaml) [![Gem Version](https://badge.fury.io/rb/jekyll-theme-minimal.svg)](https://badge.fury.io/rb/jekyll-theme-minimal)
 
