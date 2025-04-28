@@ -4,9 +4,6 @@ layout: default
 The perceptual quality of synthetic sound models remains a significant challenge for sound designers, primarily due to the lack of standardized objective evaluation methods and the limited availability of diverse synthetic samples. These limitations complicate the identification of perceptual deficiencies in synthesized audio. While classification models can effectively differentiate between real and synthetic sounds, gaining insight into the underlying decision-making process can reveal which acoustic features need refinement.
 
 
-[Link to other resources](./another-page.html).
-
-
 # Sound categories
 
 This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
@@ -25,7 +22,7 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 
 # Optimization
 For the optimization, we provide the whole list of both sound categories, top 5 important features and the optimizations made for the subjective test. 
-All the optimization parameters vary depending on the model used in the procedural audio online engine:[Visit Nemisindo](https://www.nemisindo.com)
+All the optimization parameters vary depending on the model used in the procedural audio online engine:[Nemisindo](https://www.nemisindo.com)
 
 
 | Class          | Optimization 1                                                | Optimization 2                                                        | Optimization 3                                                     | Optimization 4                                                     |
@@ -38,6 +35,8 @@ All the optimization parameters vary depending on the model used in the procedur
 | Bubbles        | High frequencies, Reverb and bell pitch 3.81                    | Distortion Bell pitch 3.81                                              | Distortion plus changes in the source and energy                   | Low pass filter and compressor                                     |
 | Droplets       | EQ High band frequencies (600-1000), Reverb (Small Impulse)     | Change in centre frequency 1140, Reverb (Small Impulse)                | Optimization 1 plus Distortion, source and energy                  | Optimization 3 plus EQ on high frequencies                         |
 | Droplets       | Surface wetness and viscosity changes                           | Compressor                                                             | Compressor plus changes on the flow amount                         | Distortion                                                         |
+
+[Link to the full list](./another-page.html).
 
 # Analysis
 In this section you will find the samples used in the subjective evaluation for SAOP 
@@ -57,6 +56,7 @@ In this section you will find the samples used in the subjective evaluation for 
 1.  Item four
 ### Small image
 
+[Link to other resources](./another-page.html).
 ![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
 
 ### Large image
