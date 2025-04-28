@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 The perceptual quality of synthetic sound models remains a significant challenge for sound designers, primarily due to the lack of standardized objective evaluation methods and the limited availability of diverse synthetic samples. These limitations complicate the identification of perceptual deficiencies in synthesized audio. While classification models can effectively differentiate between real and synthetic sounds, gaining insight into the underlying decision-making process can reveal which acoustic features need refinement.
 
 
@@ -24,7 +25,9 @@ We retrieved the top 5 features after using the Bottleneck framework. All the to
 # Optimization
 For the optimization, we provide the whole list of both sound categories, top 5 important features and the optimizations made for the subjective test. 
 All the optimization parameters vary depending on the model used in the procedural audio online engine:[Nemisindo](https://www.nemisindo.com)
-The .zip file can be downloaded here: [Dataset](https://drive.google.com/file/d/1f5xf9ZPqKKl-iOVH5jyJUJ8wKT4LzMnP/view?usp=share_link)
+
+
+* The .zip file can be downloaded here: [Dataset](https://drive.google.com/file/d/1f5xf9ZPqKKl-iOVH5jyJUJ8wKT4LzMnP/view?usp=share_link)
 
 | Class          | Optimization 1                                                | Optimization 2                                                        | Optimization 3                                                     | Optimization 4                                                     |
 |:---------------|:---------------------------------------------------------------|:----------------------------------------------------------------------|:-------------------------------------------------------------------|:-------------------------------------------------------------------|
@@ -38,30 +41,17 @@ The .zip file can be downloaded here: [Dataset](https://drive.google.com/file/d/
 | Droplets       | Surface wetness and viscosity changes                           | Compressor                                                             | Compressor plus changes on the flow amount                         | Distortion                                                         |
 
 
-For the whole list of all the modifications based on the top 5 features in the synthesis models, we used the post production effects and the parameters available in the online tool. You can find all the changes of the samples in the 
+For the whole list of all the modifications based on the top 5 features in the synthesis models, we used the post production effects and the parameters available in the online tool. 
+
+Here, we share a spreadsheet with  the different parameter changes for our optimization samples, as seen in the table above you'll find the following:
+*   Sound category
+*   Optimization characteristics (Opt 1, Opt 2, Opt 3, Opt 4. )
+You can find all the changes of the samples in the 
 [Link to the full list of optimizations ](https://docs.google.com/spreadsheets/d/1yg0VtcU-2Eo1-I1Io8vB-8VSBgrAsxN4SJoMKOjoBSE/edit?usp=sharing)
-The spreadsheet will have
-*   Optimization column bar which correlates with the Opt1, Opt2, Opt3 etc in the dataset. 
-*   Name of the sound category.
+
 
 # Analysis
 In this section you will find the samples used in the subjective evaluation for SAOP, 
 [More statistics](./another-page.html).
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-
-[Link to other resources](./another-page.html).
 
 
