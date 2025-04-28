@@ -3,11 +3,9 @@ layout: default
 ---
 The perceptual quality of synthetic sound models remains a significant challenge for sound designers, primarily due to the lack of standardized objective evaluation methods and the limited availability of diverse synthetic samples. These limitations complicate the identification of perceptual deficiencies in synthesized audio. While classification models can effectively differentiate between real and synthetic sounds, gaining insight into the underlying decision-making process can reveal which acoustic features need refinement.
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-[Link to another page](./another-page.html).
+[Link to other resources](./another-page.html).
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
 # Sound categories
 
@@ -24,18 +22,22 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 | Droplets     | Loudness           | Effective duration | LDB              | RMS              | MFCC 1           | Temporal and spectral  |
 | Droplets     | Loudness           | RMS          | LDB             | Median            | Spectral flux      | Temporal and spectral  |
 
+
 # Optimization
-For the optimization we provide  the whole list of both sound categories, top 5 important features and the optimization made for the subjective test. All the optimization parameters vary depending on the model used in the procedural audio online engine: 
-| Class          | Optimization 1                                               | Optimization 2                                                       | Optimization 3                                                | Optimization 4                                                    |
-|:---------------|:--------------------------------------------------------------|:---------------------------------------------------------------------|:---------------------------------------------------------------|:------------------------------------------------------------------|
-| Applause       | EQ and reverb                                                  | Distortion tone, more audience factor and a distortion change of the knee     | Change in the audience size, mix width and  distortion.       | More clapping rate and enthusiasm. We use compressor  and distortion ( with a change in the knee) |
-| Applause       | EQ (high pass filter), Reverb and bell pitch 3.81                  | Distortion Bell pitch 3.81                                             | Distortion  plus changes in the source  and energy                                   | Low pass filter and  compressor                                      |
-| Church bells   | Eq High band frequencies (600-1000), reverb (Small Impulse)   | Change in centre frequency 1140, reverb (Small Impulse)              | Optimization 1, distortion, changes in the source and energy  parameters                           | Optimization 3 + High pass filter (EQ) Frequencies                                           |
-| Church bells   | Surface wetness + Viscosity                                    | Compressor                                                            | Compressor + flow amount                                       | Distortion                                                        |
-| Bubbles        | Eq and reverb                                                  | Distortion tone + audience factor + Distortion change of the knee     | Change in the audience size, mix width. Plus distortion.       | Changes on the clapping rate, enthusiasm. Use of the  compressor and distortion (change in the knee) |
-| Bubbles        | High frequencies, Reverb and bell pitch 3.81                  | Distortion Bell pitch 3.81                                             | Distortion, changes in the  source and  energy  parameters                                  | Low pass filter  and compressor                                      |
-| Droplets       | Eq High band frequencies (600-1000),  reverb (Small Impulse)   | Change in centre frequency 1140 . Reverb (Small Impulse)              | Optimization 1 + Distortion + source + energy                            | Optimization 3 and the EQ on high frequencies
-| Droplets       | Surface wetness and viscocity changes                                    | Compressor                                                            | Compressor  and changes on the flow amount                                       | Distortion                                                        |
+For the optimization, we provide the whole list of both sound categories, top 5 important features and the optimizations made for the subjective test. 
+All the optimization parameters vary depending on the model used in the procedural audio online engine:[Visit Nemisindo](https://www.nemisindo.com)
+
+
+| Class          | Optimization 1                                                | Optimization 2                                                        | Optimization 3                                                     | Optimization 4                                                     |
+|:---------------|:---------------------------------------------------------------|:----------------------------------------------------------------------|:-------------------------------------------------------------------|:-------------------------------------------------------------------|
+| Applause       | EQ and reverb                                                   | Distortion tone, more audience factor, and a distortion change of the knee | Change in the audience size, mix width, and distortion             | More clapping rate and enthusiasm. Use of compressor and distortion (with a change in the knee) |
+| Applause       | EQ (high pass filter), Reverb and bell pitch 3.81               | Distortion Bell pitch 3.81                                              | Distortion plus changes in the source and energy                   | Low pass filter and compressor                                     |
+| Church Bells   | EQ High band frequencies (600-1000), Reverb (Small Impulse)     | Change in centre frequency 1140, Reverb (Small Impulse)                | Optimization 1, distortion, changes in the source and energy       | Optimization 3 plus High pass filter (EQ) on frequencies           |
+| Church Bells   | Surface wetness and viscosity                                   | Compressor                                                             | Compressor plus flow amount                                        | Distortion                                                         |
+| Bubbles        | EQ and reverb                                                    | Distortion tone, audience factor, and distortion change of the knee    | Change in audience size, mix width, and distortion                 | Changes in clapping rate and enthusiasm. Use of compressor and distortion (change in the knee) |
+| Bubbles        | High frequencies, Reverb and bell pitch 3.81                    | Distortion Bell pitch 3.81                                              | Distortion plus changes in the source and energy                   | Low pass filter and compressor                                     |
+| Droplets       | EQ High band frequencies (600-1000), Reverb (Small Impulse)     | Change in centre frequency 1140, Reverb (Small Impulse)                | Optimization 1 plus Distortion, source and energy                  | Optimization 3 plus EQ on high frequencies                         |
+| Droplets       | Surface wetness and viscosity changes                           | Compressor                                                             | Compressor plus changes on the flow amount                         | Distortion                                                         |
 
 # Analysis
 In this section you will find the samples used in the subjective evaluation for SAOP 
