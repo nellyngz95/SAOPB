@@ -1,6 +1,6 @@
 title: SAOP
 logo: /assets/img/squareblue.png
 description: Synthetic Audio Optimization by feature driven importance.Official page for the analysis and modeling of the SAOP project.
-show_downloads: true
+show_downloads: false
 google_analytics:
 theme: jekyll-theme-minimal
