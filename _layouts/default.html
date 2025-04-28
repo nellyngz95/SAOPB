@@ -27,14 +27,11 @@
         <p class="view"><a href="{{  }}">View the Project on GitHub <small>{{ UnknownAuthor }}</small></a></p>
         {% endif %}
 
-        {% if site.github.is_user_page %}
-        <p class="view"><a href="{{unknown}}">View My GitHub Profile</a></p>
-        {% endif %}
 
         {% if site.show_downloads %}
         <ul class="downloads">
           <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
-          <li><a href="{{  }}">View On <strong>GitHub</strong></a></li>
+  
         </ul>
         {% endif %}
       </header>
@@ -45,7 +42,6 @@
       </section>
       <footer>
         {% if site.github.is_project_page %}
-        <p>This project is maintained by <a href="{{ unknown}}">{{ unknown author }}</a></p>
         {% endif %}
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
