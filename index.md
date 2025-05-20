@@ -52,6 +52,6 @@ You can find all the changes of the samples in the
 
 # Analysis
 In this section you will find the samples used in the subjective evaluation for SAOP, 
-[More statistics](./another-page.html).
+[Examples](./another-page.html).
 
 
