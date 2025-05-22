@@ -8,33 +8,35 @@ The page of the procedural audio engine: [Nemisindo](https://nemisindo.com/).
 ### Rain
 The rain model used in Nemisindo is a mix between additive, modal physically informed and physical modelling. Without any post production effect. 
 - **Ground Truth**  
-  ![Rain-GroundTruth](/Users/nellygarcia/Documents/GitHub/SAOPB/assets/img/RainGroundTruth.png)
+  ![Rain-GroundTruth](assets/img/RainGroundTruth.png)
 
 - **Default (6KSFX)**  
-  ![Rain-Default](/Users/nellygarcia/Documents/GitHub/SAOPB/assets/img/RainDefault(6KSFX).png)
+  ![Rain-Default](assets/img/RainDefault(6KSFX).png)
 
 - **Optimization**  
-  ![Rain-Optimization](/Users/nellygarcia/Documents/GitHub/SAOPB/assets/img/RainOptimization4.png)
+  ![Rain-Optimization](assets/img/RainOptimization4.png)
+
+### Comparison of the features.
 
 ### Fire
 - **Ground Truth**  
-  ![Fire-GroundTruth](/Users/nellygarcia/Documents/GitHub/SAOPB/assets/img/FireGroundTruth.png)
+  ![Fire-GroundTruth](assets/img/FireGroundTruth.png)
 
 - **Default (6KSFX)**  
-  ![Fire-Default](/Users/nellygarcia/Documents/GitHub/SAOPB/assets/img/FireDefault(6KSFX).png)
+  ![Fire-Default](assets/img/FireDefault(6KSFX).png)
 
 - **Optimization**  
-  ![Fire-Optimization](/Users/nellygarcia/Documents/GitHub/SAOPB/assets/img/FireOptimization4.png)
+  ![Fire-Optimization](assets/img/FireOptimization4.png)
 
 ### Applause
 
 - **Ground Truth**  
-  ![Applause-GroundTruth](/Users/nellygarcia/Documents/GitHub/SAOPB/assets/img/ApplauseGroundTruth.png)
+  ![Applause-GroundTruth](assets/img/ApplauseGroundTruth.png)
 
 - **Default (6KSFX)**  
-  ![Applause-Default](/Users/nellygarcia/Documents/GitHub/SAOPB/assets/img/ApplauseDefault(6KSFX).png)
+  ![Applause-Default](assets/img/ApplauseDefault(6KSFX).png)
 
 - **Optimization**  
-  ![Applause-Optimization](/Users/nellygarcia/Documents/GitHub/SAOPB/assets/img/ApplauseOptimization4.png)
+  ![Applause-Optimization](assets/img/ApplauseOptimization4.png)
   
 [back](./)
