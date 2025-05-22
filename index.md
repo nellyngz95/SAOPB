@@ -49,8 +49,8 @@ Here, we share a spreadsheet with  the different parameter changes for our optim
 You can find all the changes of the samples in the 
 [Link to the full list of optimizations ](https://docs.google.com/spreadsheets/d/1yg0VtcU-2Eo1-I1Io8vB-8VSBgrAsxN4SJoMKOjoBSE/edit?usp=sharing)
 
-We show the difference in the top-5 categoris with plot bars in the Applause category below: 
-![Applause: Top 5- Feature Importance](assets/img/ApplauseDefault(6KSFX).png)
+We show the difference in the top-5 categories with plot bars in the Applause category below: 
+![Applause: Top 5- Feature Importance](/Users/nellygarcia/Documents/GitHub/SAOPB/assets/img/Applausefeature_comparison.png)
 We can see that Pitch confidence was one of the most important features and could be the reason why it is perceived as more "real". 
 
 # Analysis
