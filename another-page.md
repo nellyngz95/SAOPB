@@ -5,7 +5,7 @@ layout: default
 ## Examples
 In this page you will find the different examples and analysis of the best perceived optimization vs. the default synthetic sample and the recorded (ground truth sample).
 ![Procedural Audio Engine ](assets/img/Nemisindo.png)
-The page of the procedural audio engine: [Nemisindo](https://nemisindo.com/). This engine gives the opportunity to create and mofidy the models in real time
+The page of the procedural audio engine: [Nemisindo](https://nemisindo.com/). This engine gives the opportunity to create and mofidy the models in real time. Below we compare 3 samples, and show the difference between the top-5 important features with their changes. 
 
 
 ### Rain
