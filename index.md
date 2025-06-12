@@ -4,7 +4,10 @@ layout: default
 
 The perceptual quality of synthetic sound models remains a significant challenge for sound designers, primarily due to the lack of standardized objective evaluation methods and the limited availability of diverse synthetic samples. These limitations complicate the identification of perceptual deficiencies in synthesized audio. While classification models can effectively differentiate between real and synthetic sounds, gaining insight into the underlying decision-making process can reveal which acoustic features need refinement.
 
-
+# FEATURE-DRIVEN BOTTLENECK FRAMEWORK FOR TREE-BASED
+The model used in SOAP
+![FDB_process](assets/img/FDB_process.png)
+![FDB](assets/img/FDB.png)
 # Sound categories
 The SOAP paper was performed in 30 sound categories. All the synthetic models are listed [here](https://docs.google.com/spreadsheets/d/1KNiRQdd2AxuzoDDhtLKynx-YiRtXolz7Cmi_yLuYXLk/edit?usp=sharing). 
 
