@@ -6,8 +6,13 @@ The perceptual quality of synthetic sound models remains a significant challenge
 
 # FEATURE-DRIVEN BOTTLENECK FRAMEWORK FOR TREE-BASED
 The model used in SOAP is described here: [FDB](./another-page2.html).
-![FDB_process](assets/FDB_process.png)
-![FDB](assets/FDB.png)
+
+![FDB_process](assets/img/FDB_process.png)
+Step 1: One vs All Classification
+Step 2: Top-K Feature Importance Bottleneck
+Step 3: Top-k Feature Classification
+
+![FDB](assets/img/FDB.png)
 # Sound categories
 The SOAP paper was performed in 30 sound categories. All the synthetic models are listed [here](https://docs.google.com/spreadsheets/d/1KNiRQdd2AxuzoDDhtLKynx-YiRtXolz7Cmi_yLuYXLk/edit?usp=sharing). 
 
