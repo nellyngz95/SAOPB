@@ -7,20 +7,18 @@ The perceptual quality of synthetic sound models remains a significant challenge
 # FEATURE-DRIVEN BOTTLENECK FRAMEWORK FOR TREE-BASED
 The model used in SOAP is comprised on the next image:
 
- [FDB](./another-page2.html).
+<img src="assets/img/FDB_process.png" alt="FDB_process" width="600">
 
-![FDB_process](assets/img/FDB_process.png)
-
-- **Step 1**: One vs All Classification
+- **Step 1: One vs All Classification**
 The feature importance states how much a feature impacts the decision-making of a model. To extract the feature importance for each class, $C$ models, where $C$ is the number of classes, are trained on one versus all (binary) classification tasks to ensure the model learns to effectively disambiguate between the target class and all the other classes. The models are trained to converge on a uniform dataset split to ensure that the feature importance is not biased to a particular classification. For each classifier $C$ we extract the top-K features required to classify based on global feature importance, these then form the concept labels for this class. 
 
-- **Step 2**: Top-K Feature Importance Bottleneck
+- **Step 2: Top-K Feature Importance Bottleneck**
 The second part of the feature-driven bottleneck framework is to predict each class's top-k feature importance. Therefore, instead of training a model to predict the class based on the input features, we train a model to predict the top-k feature importance for the particular class, using the softmax top-k feature importance for the associated class from step 1. 
-- **Step 3**: Top-k Feature Classification
+- **Step 3: Top-k Feature Classification**
 The third part of the feature-driven bottleneck framework takes the predictions from step 2 and trains a model to use the predicted top-k feature importance to predict the associated class. 
 Step 2 and Step 3 are combined to create the overall predictive process, Figure \ref{overal_process}, which takes in features and then predicts the top-k features' importance, which is used as input to the class classification model. At test time, intervention can be made between steps 2 and 3, enabling feature importance error correction, which can hypothetically enable near-perfect accuracy, as shown in Figure \ref{process}. Human intervention is a core contribution, and, as far as we are aware, the first attempt to offer a bridge between machine learning and a human expert in audio classification.
 
-![FDB](assets/img/FDB.png)
+<img src="assets/img/FDB.png" alt="FDB" width="600">
 # Sound categories
 The SOAP paper was performed in 30 sound categories. All the synthetic models are listed [here](https://docs.google.com/spreadsheets/d/1KNiRQdd2AxuzoDDhtLKynx-YiRtXolz7Cmi_yLuYXLk/edit?usp=sharing). 
 
