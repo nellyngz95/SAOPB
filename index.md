@@ -8,11 +8,11 @@ The perceptual quality of synthetic sound models remains a significant challenge
 The model used in SOAP is comprised on the next image:
 
 ![Image](assets/img/FCB.png)
-
+*Figure 1: Feature Concept BottleNeck.*
 
 - **Step 1: One vs All Classification**
 
-The feature importance states how much a feature impacts the decision-making of a model. To extract the feature importance for each class, $C$ models, where $C$ is the number of classes, are trained on one versus all (binary) classification tasks to ensure the model learns to effectively disambiguate between the target class and all the other classes. The models are trained to converge on a uniform dataset split to ensure that the feature importance is not biased to a particular classification. For each classifier $C$ we extract the top-K features required to classify based on global feature importance, these then form the concept labels for this class. 
+The feature importance states how much a feature impacts the decision-making of a model. To extract the feature importance for each class, _C_ models, where _C_ is the number of classes, are trained on one versus all (binary) classification tasks to ensure the model learns to effectively disambiguate between the target class and all the other classes. The models are trained to converge on a uniform dataset split to ensure that the feature importance is not biased to a particular classification. For each classifier _C_ we extract the top-K features required to classify based on global feature importance, these then form the concept labels for this class. 
 
 
 - **Step 2: Top-K Feature Importance Bottleneck**
@@ -23,16 +23,17 @@ The second part of the feature-driven bottleneck framework is to predict each cl
 The third part of the feature-driven bottleneck framework takes the predictions from step 2 and trains a model to use the predicted top-k feature importance to predict the associated class. 
 
 
-Step 2 and Step 3 are combined to create the overall predictive process, Figure \ref{overal_process}, which takes in features and then predicts the top-k features' importance, which is used as input to the class classification model. At test time, intervention can be made between steps 2 and 3, enabling feature importance error correction, which can hypothetically enable near-perfect accuracy, as shown in Figure \ref{process}. Human intervention is a core contribution, and, as far as we are aware, the first attempt to offer a bridge between machine learning and a human expert in audio classification.
+Step 2 and Step 3 are combined to create the overall predictive process, Figure \ref{overal_process}, which takes in features and then predicts the top-k features' importance, which is used as input to the class classification model. At test time, intervention can be made between steps 2 and 3, enabling feature importance error correction, which can hypothetically enable near-perfect accuracy, as shown in Figure 2. Human intervention is a core contribution, and, as far as we are aware, the first attempt to offer a bridge between machine learning and a human expert in audio classification.
 
 
 ![Image](assets/img/FCB_process.png)
+*Figure 2: Feature concept bottleneck process.*
 
 # Sound categories
 
-The SOAP paper was performed in 30 sound categories. All the synthetic models are listed [here](https://docs.google.com/spreadsheets/d/1KNiRQdd2AxuzoDDhtLKynx-YiRtXolz7Cmi_yLuYXLk/edit?usp=sharing). 
+The SOAP project was performed in 30 sound categories. ** All the synthetic models used  are listed [here](https://docs.google.com/spreadsheets/d/1KNiRQdd2AxuzoDDhtLKynx-YiRtXolz7Cmi_yLuYXLk/edit?usp=sharing) **
 
-We retrieved the top 5 features after using the Bottleneck framework. All the top 5 features of the 30 categories can be found [here](https://docs.google.com/spreadsheets/d/1D9WmVtdcp3gVJVWvY20wZEMUg0LAxOCs-plfeZjsb-M/edit?usp=sharing). 
+We retrieved the top 5 features after using the Bottleneck framework. ** All the top 5 features of the 30 categories can be found [here](https://docs.google.com/spreadsheets/d/1D9WmVtdcp3gVJVWvY20wZEMUg0LAxOCs-plfeZjsb-M/edit?usp=sharing). **
 
 | Sound category     | Feature 1    | Feature 2         | Feature 3        | Feature 4         | Feature 5          | Classification        |
 |:-------------|:-------------------|:------------------|:------------------|:------------------|:------------------|:------------------|:---------------------------|
@@ -51,7 +52,7 @@ For the optimization, we provide the whole list of both sound categories, top 5 
 All the optimization parameters vary depending on the model used in the procedural audio online engine:[Nemisindo](https://www.nemisindo.com)
 
 
-* The .zip file can be downloaded here: [Dataset](https://drive.google.com/file/d/1f5xf9ZPqKKl-iOVH5jyJUJ8wKT4LzMnP/view?usp=share_link)
+** The .zip file can be downloaded here: [Dataset](https://drive.google.com/file/d/1f5xf9ZPqKKl-iOVH5jyJUJ8wKT4LzMnP/view?usp=share_link) **
 
 | Class          | Optimization 1                                                | Optimization 2                                                        | Optimization 3                                                     | Optimization 4                                                     |
 |:---------------|:---------------------------------------------------------------|:----------------------------------------------------------------------|:-------------------------------------------------------------------|:-------------------------------------------------------------------|
