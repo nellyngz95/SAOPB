@@ -7,7 +7,7 @@ The perceptual quality of synthetic sound models remains a significant challenge
 # FEATURE-DRIVEN BOTTLENECK FRAMEWORK FOR TREE-BASED
 The model used in SOAP is comprised on the next image:
 
-<img src="/assets/img/FCB_process.png" alt="FDB_process" width="600">
+<img src="SAOPB/assets/img/FCB_process.png" alt="FDB_process" width="600">
 
 - **Step 1: One vs All Classification**
 
