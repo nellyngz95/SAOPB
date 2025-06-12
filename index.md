@@ -7,7 +7,7 @@ The perceptual quality of synthetic sound models remains a significant challenge
 # FEATURE-DRIVEN BOTTLENECK FRAMEWORK FOR TREE-BASED
 The model used in SOAP is comprised on the next image:
 
-![Image](assets/img/FCB_process.png)
+![Image](assets/img/FCB.png)
 
 
 - **Step 1: One vs All Classification**
@@ -26,7 +26,7 @@ The third part of the feature-driven bottleneck framework takes the predictions 
 Step 2 and Step 3 are combined to create the overall predictive process, Figure \ref{overal_process}, which takes in features and then predicts the top-k features' importance, which is used as input to the class classification model. At test time, intervention can be made between steps 2 and 3, enabling feature importance error correction, which can hypothetically enable near-perfect accuracy, as shown in Figure \ref{process}. Human intervention is a core contribution, and, as far as we are aware, the first attempt to offer a bridge between machine learning and a human expert in audio classification.
 
 
-![Image](assets/img/FCB.png)
+![Image](assets/img/FCB_process.png)
 
 # Sound categories
 
