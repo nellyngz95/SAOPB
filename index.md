@@ -32,9 +32,11 @@ Step 2 and Step 3 are combined to create the overall predictive process, Figure 
 
 # Sound categories
 
-The SOAP project was performed in 30 sound categories. <span style="font-size: 20px;">**All the synthetic models used are listed [here](https://docs.google.com/spreadsheets/d/1KNiRQdd2AxuzoDDhtLKynx-YiRtXolz7Cmi_yLuYXLk/edit?usp=sharing)**</span>
+The SOAP project was performed in 30 sound categories. <span style="font-size: 16px;">**All the synthetic models used are listed [here](https://docs.google.com/spreadsheets/d/1KNiRQdd2AxuzoDDhtLKynx-YiRtXolz7Cmi_yLuYXLk/edit?usp=sharing)**</span>
 
-We retrieved the top 5 features after using the Bottleneck framework. <span style="font-size: 20px;">**All the top 5 features of the 30 categories can be found [here](https://docs.google.com/spreadsheets/d/1D9WmVtdcp3gVJVWvY20wZEMUg0LAxOCs-plfeZjsb-M/edit?usp=sharing).**</span>
+We retrieved the top 5 features after using the Bottleneck framework. <span style="font-size: 16px;">**All the top 5 features of the 30 categories can be found [here](https://docs.google.com/spreadsheets/d/1D9WmVtdcp3gVJVWvY20wZEMUg0LAxOCs-plfeZjsb-M/edit?usp=sharing).**</span>
+
+
 | Sound category     | Feature 1    | Feature 2         | Feature 3        | Feature 4         | Feature 5          | Classification        |
 |:-------------|:-------------------|:------------------|:------------------|:------------------|:------------------|:------------------|:---------------------------|
 | Applause     | Pitch salience      | pitch Confidence   | Attack start       | Dynamic complexity     | Amplitude 5        | Temporal and spectral  |
@@ -73,7 +75,7 @@ Here, we share a spreadsheet with  the different parameter changes for our optim
 *   Sound category
 *   Optimization characteristics (Opt 1, Opt 2, Opt 3, Opt 4. )
 You can find all the changes of the samples in the 
-<span style="font-size: 20px;">[Link to the full list of optimizations](https://docs.google.com/spreadsheets/d/1yg0VtcU-2Eo1-I1Io8vB-8VSBgrAsxN4SJoMKOjoBSE/edit?usp=sharing)</span>
+<span style="font-size: 16px;">[Link to the full list of optimizations](https://docs.google.com/spreadsheets/d/1yg0VtcU-2Eo1-I1Io8vB-8VSBgrAsxN4SJoMKOjoBSE/edit?usp=sharing)</span>
 
 We show the difference in the top-5 categories with plot bars in the Applause category below: 
 ![Image](/assets/img/Applausefeature_comparison.png)
