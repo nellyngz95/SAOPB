@@ -8,6 +8,7 @@ The perceptual quality of synthetic sound models remains a significant challenge
 The model used in SOAP is comprised on the next image:
 
 ![Image](assets/img/FCB.png)
+
 *Figure 1: Feature Concept BottleNeck.*
 
 - **Step 1: One vs All Classification**
@@ -31,24 +32,24 @@ Step 2 and Step 3 are combined to create the overall predictive process, Figure 
 
 # Sound categories
 
-The SOAP project was performed in 30 sound categories. ** All the synthetic models used  are listed [here](https://docs.google.com/spreadsheets/d/1KNiRQdd2AxuzoDDhtLKynx-YiRtXolz7Cmi_yLuYXLk/edit?usp=sharing) **
+The SOAP project was performed in 30 sound categories. <span style="font-size: 20px;">**All the synthetic models used are listed [here](https://docs.google.com/spreadsheets/d/1KNiRQdd2AxuzoDDhtLKynx-YiRtXolz7Cmi_yLuYXLk/edit?usp=sharing)**</span>
 
-We retrieved the top 5 features after using the Bottleneck framework. ** All the top 5 features of the 30 categories can be found [here](https://docs.google.com/spreadsheets/d/1D9WmVtdcp3gVJVWvY20wZEMUg0LAxOCs-plfeZjsb-M/edit?usp=sharing). **
-
+We retrieved the top 5 features after using the Bottleneck framework. <span style="font-size: 20px;">**All the top 5 features of the 30 categories can be found [here](https://docs.google.com/spreadsheets/d/1D9WmVtdcp3gVJVWvY20wZEMUg0LAxOCs-plfeZjsb-M/edit?usp=sharing).**</span>
 | Sound category     | Feature 1    | Feature 2         | Feature 3        | Feature 4         | Feature 5          | Classification        |
 |:-------------|:-------------------|:------------------|:------------------|:------------------|:------------------|:------------------|:---------------------------|
-| Applause     | Pitch salience      | pitchconfidence   | Attack start       | Dynamic complexity     | Amplitude 5        | Temporal and spectral  |
-| Applause     | Pitch confidence    | MFCC 3           | Amplitude 3        | Frequency 1        | MFCC 6           | Temporal and spectral  |
+| Applause     | Pitch salience      | pitch Confidence   | Attack start       | Dynamic complexity     | Amplitude 5        | Temporal and spectral  |
+| Applause     | Pitch Confidence    | MFCC 3           | Amplitude 3        | Frequency 1        | MFCC 6           | Temporal and spectral  |
 | Church Bells | Amplitude 2         | Amplitude 4       | Pitch salience     | Amplitude1        | Max to total        | Temporal and perceptual |
-| Church Bells | Pitch salience      | Spectral flux      | Dynamic complexity     | Crest             | MFCC 3            | Temporal and perceptual |
-| Bubbles      | Log attack time      | Spectral flatnesss | mfcc_1            | LDB               | Intensity         | Temporal and spectral  |
-| Bubbles      | Crest              | Effective duration | frequency1        | pitchconfidence   | Attack start       | Temporal, perceptual and spectral |
-| Droplets     | Loudness           | Effective duration | LDB              | RMS              | MFCC 1           | Temporal and spectral  |
+| Church Bells | Pitch Salience      | Spectral flux      | Dynamic Complexity     | Crest             | MFCC 3            | Temporal and perceptual |
+| Bubbles      | Log Attack Time      | Spectral flatnesss | MFCC 1          | LDB               | Intensity         | Temporal and spectral  |
+| Bubbles      | Crest              | Effective Duration | frequency1        | Pitch Confidence   | Attack start       | Temporal, perceptual and spectral |
+| Droplets     | Loudness           | Effective Duration | LDB              | RMS              | MFCC 1           | Temporal and spectral  |
 | Droplets     | Loudness           | RMS          | LDB             | Median            | Spectral flux      | Temporal and spectral  |
 
 
 # Optimization
 For the optimization, we provide the whole list of both sound categories, top 5 important features and the optimizations made for the subjective test. 
+
 All the optimization parameters vary depending on the model used in the procedural audio online engine:[Nemisindo](https://www.nemisindo.com)
 
 
@@ -72,7 +73,7 @@ Here, we share a spreadsheet with  the different parameter changes for our optim
 *   Sound category
 *   Optimization characteristics (Opt 1, Opt 2, Opt 3, Opt 4. )
 You can find all the changes of the samples in the 
-[Link to the full list of optimizations ](https://docs.google.com/spreadsheets/d/1yg0VtcU-2Eo1-I1Io8vB-8VSBgrAsxN4SJoMKOjoBSE/edit?usp=sharing)
+<span style="font-size: 20px;">[Link to the full list of optimizations](https://docs.google.com/spreadsheets/d/1yg0VtcU-2Eo1-I1Io8vB-8VSBgrAsxN4SJoMKOjoBSE/edit?usp=sharing)</span>
 
 We show the difference in the top-5 categories with plot bars in the Applause category below: 
 ![Image](/assets/img/Applausefeature_comparison.png)
