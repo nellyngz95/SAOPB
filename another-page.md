@@ -13,10 +13,16 @@ The rain model used in Nemisindo is a mix between additive, modal physically inf
 - **Ground Truth**  
 The recorded sample:
   ![Rain-GroundTruth](assets/img/RainGroundTruth.png)
+  <audio controls>
+  <source src="assets/audio/Rain3-24.wav" type="audio/wav">
+  </audio>
 
 - **Default (6KSFX)**  
 The default model :
   ![Rain-Default](assets/img/RainDefault(6KSFX).png)
+  <audio controls>
+  <source src="assets/audio/RainSynth3-25.wav" type="audio/wav">
+  </audio>
 
 - **Optimization**  
 The best perceived model according to our subjective evaluation. 
@@ -24,6 +30,9 @@ Post production effects used: **Compression.**
 We modified the parameters available like: **Ambient noise: 0.15, splatter: 0.96  and droplets: 0.5**
 
   ![Rain-Optimization](assets/img/RainOptimization4.png)
+  <audio controls>
+  <source src="assets/audio/RainOpt4-4.wav" type="audio/wav">
+  </audio>
 
 ### Comparison of the features.
 
@@ -33,15 +42,23 @@ The fire model used in Nemisindo is a mix between additive, modal, subtractive a
 - **Ground Truth**  
 The recorded sample:
   ![Fire-GroundTruth](assets/img/FireGroundTruth.png)
+  <audio controls>
+    <source src="assets/audio/Fire4-16.wav" type="audio/wav">
+    </audio>
 
 - **Default (6KSFX)**  
 The model without any post-production effect:
   ![Fire-Default](assets/img/FireDefault(6KSFX).png)
-
+  <audio controls>
+    <source src="assets/audio/FireSynth6-17.wav" type="audio/wav">
+    </audio>
 - **Optimization**  
 The best perceived model according to our subjective evaluation. 
 Post production effects used: **Compression and we added more lapping and crackling with the parameters available in the procedural audio engine.**
   ![Fire-Optimization](assets/img/FireOptimization4.png)
+  <audio controls>
+  <source src="assets/audio/FireOpt4-4.wav" type="audio/wav">
+  </audio>
 
 ### Applause
 The applause model used in Nemisindo is an additive synthesis model.It is inspired by the Andrew Farnell work. 
